@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ucapan Pernikahan</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #f8f1f1;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .hero {
+      height: 100vh;
+      background: linear-gradient(rgba(70, 0, 20, 0.6), rgba(40, 0, 10, 0.7)),
+      url('https://drive.google.com/thumbnail?id=1M4DpDlE9FCJZNp8eJIRBkHndDmF9ajZX&sz=w2000') center/cover no-repeat;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      position: relative;
+    }
+
+    .hero-content {
+      animation: fadeIn 2s ease;
+      background: rgba(0,0,0,0.25);
+      padding: 40px;
+      border-radius: 25px;
+      backdrop-filter: blur(3px);
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 4rem;
+      margin-bottom: 15px;
+      letter-spacing: 2px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 25px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 14px 35px;
+      background: #800020;
+      color: white;
+      border-radius: 50px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .btn:hover {
+      background: #a00030;
+      transform: translateY(-3px);
+    }
+
+    section {
+      padding: 80px 10%;
+    }
+
+    .section-title {
+      text-align: center;
+      color: #6d0019;
+      margin-bottom: 50px;
+      font-family: 'Playfair Display', serif;
+      font-size: 2.8rem;
+    }
+
+    .message-section {
+      background: linear-gradient(to bottom, #fff, #f9e6ea);
+    }
+
+    .messages {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+    }
+
+    .message-card {
+      background: white;
+      color: #444;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      transition: 0.3s;
+      border-top: 5px solid #800020;
+    }
+
+    .message-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .message-card h3 {
+      color: #800020;
+      margin-bottom: 10px;
+    }
+
+    .gallery-section {
+      background: linear-gradient(to bottom, #5b0017, #2b000a);
+    }
+
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .gallery-item {
+      overflow: hidden;
+      border-radius: 20px;
+      position: relative;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      transition: 0.5s ease;
+    }
+
+    .gallery-item:hover img {
+      transform: scale(1.08);
+    }
+
+    .footer {
+      background: #1d0008;
+      text-align: center;
+      padding: 30px 20px;
+      color: #ddd;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media(max-width: 768px) {
+      .hero h1 {
+        font-size: 2.5rem;
+      }
+
+      .hero-content {
+        padding: 25px;
+      }
+
+      .section-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Afif & Indah</h1>
+      <p>Selamat atas pernikahan kalian, semoga cinta dan kebahagiaan selalu menyertai perjalanan hidup bersama.</p>
+      <a href="#ucapan" class="btn">Lihat Ucapan</a>
+    </div>
+  </section>
+
+  <section class="message-section" id="ucapan">
+    <h2 class="section-title">Ucapan & Doa</h2>
+
+    <div class="messages">
+      <div class="message-card">
+        <h3>Khaidar</h3>
+        <p>Selamat menempuh hidup baru bosss. Semoga langgeng tekan simbah. Nek arep turu kata kata andalane ojo lali.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Riszky</h3>
+        <p>Selamat menempuh hidup baru. Semoga Gentalonya cepat membuahkan dedek bayi.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Tirta (Ngengek)</h3>
+        <p>Ubur ubur ikan lele, Happy Wedding Lee. Biyen turune dikancani guling, saiki wes ono sing ngancani, ditambahi gaya mireng.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Doni</h3>
+        <p>SELAMAT TUMPUK</p>
+      </div>
+      
+      <div class="message-card">
+        <h3>Rokhim L</h3>
+        <p>Dua hati kini bersatu dalam janji penuh restu,Semoga cinta selalu abadi bahagia hingga akhir nanti.</p>
+      </div>
+      
+      <div class="message-card">
+        <h3>Zulpan (Mpek) L</h3>
+        <p>Selamat ya! Semoga rumah tangga kalian selalu damai, kecuali saat menentukan mau makan di mana.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Nusron</h3>
+        <p>Jalan hidup tak selurus dan rata  tapi lewati semuanya itu tuhan sedang mengajarkan  bayak hal,belajarlah bersamanya karena dia yang menuntunmu  dan menggendongmu Sepanjang jalan itu.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Pian (Marbot)</h3>
+        <p>Ubur ubur ikan lele, Alhamdulillah manut e payu lee</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Irsyad</h3>
+        <p>Selamat menempuh hidup baru,semoga pernikahan mu seINDAH nama istrimu</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Nopal</h3>
+        <p>Happy Wedding! Semoga menjadi keluarga yang sakinah, mawaddah, warahmah, diberikan kesehatan, keberkahan, dan kebahagiaan yang tak terhingga.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Arjun</h3>
+        <p>Happy wedding cak kepet,"Bien ngarapi montor, sak iki mbendino ngarapi bojone"</p>
+      </div>
+
+       <div class="message-card">
+        <h3>Khalim</h3>
+        <p>Happy wedding & happy wik wik , jangan lupa pintunya dikunci.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>Mad L</h3>
+        <p>Happy wedding & happy wik wik , jangan lupa pintunya dikunci.</p>
+      </div>
+
+      <div class="message-card">
+        <h3>BOSS AL</h3>
+        <p>Ga sopan ya nikah duluan sebelum aku.Tapi yaudah,gapapa. Semoga kamu mendapatkan cinta dan bahagia seumur hidupmu. .</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery-section">
+    <h2 class="section-title" style="color:white;">Album Kenangan</h2>
+
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=1AAChT4xuIfEmr1QLc1FbO94o-y6NWXrM&sz=w2000" alt="Foto 1">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=1GIgsQnuxtiybQEthJGTv-jaXLxTmVc59&sz=w2000" alt="Foto 2">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=16hvtM4NwYyPzmdmreJgLIExtL_dG2eBA&sz=w2000" alt="Foto 3">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=1MOC3T3lmDSveB3aF4r2-5UBozW-CVIsB&sz=w2000" alt="Foto 4">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=15n5ubNtEydeN3qMXzzRAfc1AQqE6bG6s&sz=w2000" alt="Foto 5">
+      </div>
+
+      <div class="gallery-item">
+        <img src="https://drive.google.com/thumbnail?id=1ABp05F68LvRJEHeVUQ-NNTqSthxpwo4b&sz=w2000" alt="Foto 6">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Dipersembahkan khusus untuk pernikahan AFIF & INDAH</p>
+    <p1>Powered by ID_Art Design</p1>
+  </footer>
+
+</body>
+</html>
